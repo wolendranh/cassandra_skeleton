@@ -1,7 +1,5 @@
 # Cassandra Docker playground
 
-One Paragraph of project description goes here
-
 ## Getting Started
 
 While in project dir copy example env file to .env

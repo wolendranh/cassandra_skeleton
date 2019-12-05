@@ -14,12 +14,12 @@ To check that both nodes are up and running execute
 docker exec -it cas2 nodetool status
 docker exec -it cas2 nodetool status
 ```
+Both should have IP assigned and status `UN` (Up and Normal)
+
 To get into CQL shell
 ```
 docker exec -it cas2  cqlsh
 ```
-
-Both should have Ip assigned and status `UN` (Up and Normal)
 
 `connect.py` contain example of connection Python outside of docker to Cassandra inside docker
 
